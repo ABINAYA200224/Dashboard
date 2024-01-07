@@ -12,9 +12,9 @@ function Overview() {
       
        
         <div className="relative bg-cover bg-center bg-no-repeat ">
-          <img src={salesview} className="h-[230px] w-[840px] ml-[60px]"></img>
+          <img src={salesview} className="h-[200px] w-[680px] ml-[60px]"></img>
           <div className="absolute index-x-0 bottom-0 flex items-center justify-center">
-            <img src={vector2} alt="Overlay Image" className="h-[233px] w-[840px] ml-[60px]" />
+            <img src={vector2} alt="Overlay Image" className="h-[200px] w-[680px] ml-[60px]" />
           </div>
         </div>
       

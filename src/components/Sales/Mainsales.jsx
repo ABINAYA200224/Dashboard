@@ -7,7 +7,7 @@ import Vertical from "./Vertical";
 function Mainsales() {
   return (
     <div>
-      <div className=" bg-[#fff] w-[60rem] h-[420px] ml-[10px] mt-[20px] rounded-2xl">
+      <div className=" bg-[#fff] w-[50rem] h-[420px] ml-[10px] mt-[20px] rounded-2xl">
         <div className="flex flex-col gap-[40px] m-[auto]">
           <div>
             <Salesoverview />

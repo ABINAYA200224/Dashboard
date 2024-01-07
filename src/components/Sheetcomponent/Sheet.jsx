@@ -10,7 +10,7 @@ function Sheet() {
       
       <Card  amount="$53,000" percentage="+55%" status_day="Today's Money" img={card1}/>
       <Card  amount="$2,300" percentage="+5%" status_day="Today's User"  img={card2}/>
-      <Card  amount="+3,052" percentage="-14%" status_day="New Clients" img={card3} className="font-bold text-[14px] text-[#E53E3E]"/>
+      <Card  amount="+3,052" percentage="-14%" status_day="New Clients" img={card3} className="font-bold text-[11px] text-[#E53E3E]"/>
       <Card  amount="$173,000" percentage="+8%" status_day="Total Sales" img={card4} />
     </div>
   )

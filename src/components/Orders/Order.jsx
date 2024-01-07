@@ -8,24 +8,24 @@ import order5 from "../../assets/images/order5.png";
 import order6 from "../../assets/images/order7.png";
 function Order() {
   return (
-    <div>
-      <div className="w-[500px] h-[550px] bg-[#FFFFFF] rounded-2xl ml-[20px]">
-        <div className="flex flex-col gap-[40px]">
-        <div className="ml-[30px] mt-[20px]">
+    <div className="mt-[20px]">
+      <div className="w-[400px] h-[500px] bg-[#FFFFFF] rounded-2xl ml-[20px]">
+        <div className="flex flex-col gap-[20px]">
+        <div className="ml-[20px] mt-[10px]">
           <div>
-            <h1 className="text-[18px] font-bold text-[#2D3748]">
+            <h1 className="text-[14px] font-bold text-[#2D3748]">
               Orders overview
             </h1>
           </div>
 
           <div className="flex">
-            <div className=" text-[14px] font-bold text-[#48BB78]">+30% </div>
+            <div className=" text-[12px] font-bold text-[#48BB78]">+30% </div>
             <div className=" flex justify-center items-center">
-              <p className="text-[14px] font-bold text-[#A0AEC0]">this month</p>
+              <p className="text-[12px] font-bold text-[#A0AEC0]">this month</p>
             </div>
           </div>
         </div>
-        <div className="ml-[30px]">
+        <div className="ml-[20px]">
           <Orders
             dateandtime="22 DEC 7:20 PM"
             amount="$2400, Design changes"
