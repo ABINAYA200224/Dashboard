@@ -6,7 +6,7 @@ function Footer() {
         <div className='flex justify-between '>
         <div className='flex'>
         <h2 className='text-[12px] text-[#A0AEC0] font-bold'>
-        @ 2021, Made with ❤️ b 
+        @ 2021, Made with ❤️ by 
         </h2>
         <h2 className='text-[12px] text-[#38B2AC] font-bold' >
         Creative Tim & Simmmple
