@@ -10,7 +10,7 @@ function Order() {
   return (
     <div>
       <div className="w-[500px] h-[550px] bg-[#FFFFFF] rounded-2xl ml-[20px]">
-        <div className="flex flex-col gap-[40px]">
+        <div className="flex flex-col gap-[40px] mt-[20px]">
         <div className="ml-[30px] mt-[20px]">
           <div>
             <h1 className="text-[18px] font-bold text-[#2D3748]">

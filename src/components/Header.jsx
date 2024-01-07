@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
     <div className="container">
-      <div className="flex justify-between mt-[10px] ml-[10px] mr-[10px]">
+      <div className="flex justify-between ml-[10px] ">
         <div className="flex flex-col justify-start ">
           <div className="flex gap-[5px]">
             <div className="text-[#A0AEC0] text-[12px] font-bold">page</div>

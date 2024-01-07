@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ amount, percentage, status_day, className ,img}) {
   return (
-    <div>
+    <div className="ml-[10px] mt-[20px]">
       <div className="w-[382px] h-[80px] bg-[#fff] rounded-2xl ">
         <div className="flex justify-center m-auto">
           <div className="flex justify-between w-[100%]">
