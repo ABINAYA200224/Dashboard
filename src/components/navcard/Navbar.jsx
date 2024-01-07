@@ -12,23 +12,23 @@ import signup from "../../assets/images/signup.png";
 import Navimg from "./Navimg";
 function Navbar() {
   return (
-    <div className="ml-[20px]">
-      <div className="w-[218.5px] h-[1580px] bg-[#F8F9FA]">
+    <div className="ml-[10px]">
+      <div className="w-[200.5px] h-[800px] bg-[#F8F9FA]">
         <div className="flex flex-col fixed top-0 ">
-          <div className="">
+          <div className="flex flex-col gap-[20px]">
             <div className="flex gap-[10px] mt-[20px]">
               <div>
                 <img src={logo} className="w-[22px] h-[22px]"></img>
               </div>
 
               <div className="flex justify-center items-center">
-                <h2 className="font-bold text-[14px] text-[#2D3748]">
+                <h2 className="font-bold text-[12px] text-[#2D3748]">
                   PURITY UI DASHBOARD
                 </h2>
               </div>
             </div>
-            <div className="mt-[20px] mb-[20px]">
-              <img src={line}></img>
+            <div className="mb-[20px] ">
+              <img src={line} className=""></img>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ function Navbar() {
                     </div>
                   </div>
                   <div className="flex justify-center items-center h-[40px]">
-                    <p className="font-bold text-[#2D3748] text-[12px]">
+                    <p className="font-bold text-[#2D3748] text-[10px]">
                       Dashboard
                     </p>
                   </div>
@@ -68,7 +68,7 @@ function Navbar() {
 
             <div className="flex flex-col gap-[25px] ">
               <div>
-                <h2 className="font-bold text-[12px] text-[#2D3748] mt-[25px]">
+                <h2 className="font-bold text-[10px] text-[#2D3748] mt-[25px]">
                   ACCOUNT PAGES
                 </h2>
               </div>

@@ -12,7 +12,7 @@ function Navcard({dashboard_name,user_img}) {
           ></img>
         </div>
         <div className="flex justify-center items-center">
-          <p className="text-[12px] text-[#A0AEC0] font-bold">{dashboard_name}</p>
+          <p className="text-[10px] text-[#A0AEC0] font-bold">{dashboard_name}</p>
         </div>
       </div>
     </div>

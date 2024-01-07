@@ -17,12 +17,12 @@ function Orders({dateandtime,amount,order,className}) {
 
         <div className=" flex flex-col gap-[5px]">
           <div>
-            <h2 className="text-[14px] text-[#2D3748] font-bold">
+            <h2 className="text-[12px] text-[#2D3748] font-bold">
               {amount}
             </h2>
           </div>
           <div>
-            <p className="text-[#A0AEC0] text-[12px] font-bold">
+            <p className="text-[#A0AEC0] text-[10px] font-bold">
               {dateandtime}
             </p>
           </div>

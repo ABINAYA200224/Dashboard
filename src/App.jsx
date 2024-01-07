@@ -30,8 +30,13 @@ function App() {
 
         <Sheet />
         <div className="flex gap-[20px]">
+          <div>
           <Uidashboard />
+          </div>
+          <div className="flex justify-center items-center">
           <Workrockets />
+          </div>
+        
         </div>
         <div className="flex">
           <Active/>

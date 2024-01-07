@@ -13,30 +13,30 @@ import ActiveUserImg from "./ActiveUserImg";
 function Active() {
   return (
     <div classname=" ">
-      <div className=" bg-[#fff] w-[43rem] h-[430px] ml-[10px] mt-[20px] rounded-2xl">
+      <div className=" bg-[#fff] w-[30rem] h-[420px] ml-[10px] mt-[20px] rounded-2xl">
         <div className="">
         <ActiveUserImg/>
         </div>
         
-        <div className="flex flex-col gap-[30px] px-[51px]">
+        <div className="flex flex-col gap-[20px] px-[30px]">
           <div>
             <div>
-              <h1 className="text-[18px] font-bold text-[#2D3748]">
+              <h1 className="text-[14px] font-bold text-[#2D3748]">
                 Active Users
               </h1>
             </div>
 
             <div className="flex">
-              <div className=" text-[14px] font-bold text-[#48BB78]">(+23)</div>
+              <div className=" text-[12px] font-bold text-[#48BB78]">(+23)</div>
               <div className=" flex justify-center items-center">
-                <p className="text-[14px] font-bold text-[#A0AEC0]">
+                <p className="text-[12px] font-bold text-[#A0AEC0]">
                   than last week
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="flex gap-[70px]">
+          <div className="flex gap-[50px]">
             <Users
               user_imgae={user1}
               user_name="Users"

@@ -6,9 +6,9 @@ import notificaton from "../assets/images/notificationicon.png";
 function Header() {
   return (
     <>
-    <div className="container">
-      <div className="flex justify-between mt-[10px] ml-[10px] mr-[10px]">
-        <div className="flex flex-col justify-start ">
+    <div className="container ml-[8px]">
+      <div className="flex justify-between ">
+        <div className="flex flex-col justify-start gap-[7px] ">
           <div className="flex gap-[5px]">
             <div className="text-[#A0AEC0] text-[12px] font-bold">page</div>
             <div className="text-[12px] font-bold text-[#2D3748]">/ Dashboard</div>

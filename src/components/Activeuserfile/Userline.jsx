@@ -11,8 +11,8 @@ import saleimg9 from "../../assets/images/saleimg9.png";
 function Userline() {
   return (
     <div className="">
-      <div className="flex gap-[50px]">
-        <div className="flex flex-col gap-[15px] mt-[40px] ml-[20px]">
+      <div className="flex gap-[25px]">
+        <div className="flex flex-col gap-[10px] mt-[60px] ml-[10px]">
           <p className="text-[10px] text-[#FFFFFF] font-bold">500</p>
           <p className="text-[10px] text-[#FFFFFF] font-bold">400</p>
           <p className="text-[10px] text-[#FFFFFF] font-bold">300</p>
@@ -21,33 +21,33 @@ function Userline() {
           <p className="text-[10px] text-[#FFFFFF] font-bold">0</p>
         </div>
 
-        <div className="flex gap-[50px] ">
-          <div  className="mt-[100px]">
-            <img src={saleimg1}></img>
+        <div className="flex gap-[30px] ">
+          <div  className="mt-[140px]">
+            <img src={saleimg1} className="w-[5px] h-[60px] "></img>
           </div>
-          <div className="mt-[128px]" >
-            <img src={saleimg2}></img>
+          <div className="mt-[148px]" >
+            <img src={saleimg2} className="w-[5px] h-[50px] "></img>
           </div>
           <div className="mt-[158px]">
-            <img src={saleimg3}></img>
+            <img src={saleimg3} className="w-[5px] h-[40px] "></img>
+          </div>
+          <div className="mt-[144px]">
+            <img src={saleimg4} className="w-[5px] h-[55px] "></img>
           </div>
           <div className="mt-[109px]">
-            <img src={saleimg4}></img>
+            <img src={saleimg5} className="w-[5px] h-[90px] "></img>
           </div>
-          <div className="mt-[46px]">
-            <img src={saleimg5}></img>
+          <div className="mt-[129px]">
+            <img src={saleimg6} className="w-[5px] h-[70.5px] "></img>
           </div>
-          <div className="mt-[70px]">
-            <img src={saleimg6}></img>
+          <div className="mt-[109px]">
+            <img src={saleimg7} className="w-[5px] h-[90px] "></img>
           </div>
-          <div className="mt-[52px]">
-            <img src={saleimg7}></img>
+          <div className="mt-[138px]">
+            <img src={saleimg8} className="w-[5px] h-[60px] "></img>
           </div>
-          <div className="mt-[108px]">
-            <img src={saleimg8}></img>
-          </div>
-          <div className="mt-[146px]">
-            <img src={saleimg9}></img>
+          <div className="mt-[166px]">
+            <img src={saleimg9} className="w-[5px] h-[30px] "></img>
           </div>
         </div>
       </div>

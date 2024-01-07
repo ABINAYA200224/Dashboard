@@ -8,15 +8,15 @@ function Workrockets() {
         <img
           src={rocket}
           alt="Image"
-          class="w-[700px] h-[290px] object-cover  rounded-md"
+          class="w-[588px] h-[250px] object-cover  rounded-md"
         />
         <div className="absolute inset-x-0 top-0 flex ">
-          <div className="text-[#FFFFFF] flex flex-col gap-[10.5rem]">
+          <div className="text-[#FFFFFF] flex flex-col gap-[7.5rem]">
             <div>
-              <p className="text-[18px] font-bold ml-[10px] mt-[10px]">
+              <p className="text-[14px] font-bold ml-[10px] mt-[10px]">
                 Work with the Rockets
               </p>
-              <p className="text-[14px] font-bold w-[416px] ml-[10px] mt-[10px]">
+              <p className="text-[12px] font-bold w-[416px] ml-[10px] mt-[10px]">
                 Wealth creation is an evolutionarily recent positive-sum game.
                 It is all about who take the opportunity first.
               </p>

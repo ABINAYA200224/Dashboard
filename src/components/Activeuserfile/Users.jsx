@@ -17,7 +17,7 @@ function Users({user_name,amount,progress,user_imgae}) {
         </div>
       </div>
       <div className="flex flex-col gap-[10px]">
-      <h2 className="text-[18px] text-[#2D3748] font-bold">
+      <h2 className="text-[14px] text-[#2D3748] font-bold">
         {amount}
       </h2>
       <img src={progress}></img>
