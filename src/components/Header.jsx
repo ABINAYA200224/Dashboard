@@ -41,7 +41,7 @@ function Header() {
                   <img src={personicon} className="w-[12px] h-[12px] "></img>
                 </div>
                 <div className="flex m-auto">
-                  <p className="text-[12px] font-bold">sign in</p>
+                  <p className="text-[12px] font-bold">sign iN</p>
                 </div>
               </div>
 
